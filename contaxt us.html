@@ -1,59 +1,82 @@
 <!DOCTYPE html>
 <style>
-    body {
-        background-color: blue;
-        margin: 0%;
-        padding: 0%;
-    }
-    header {
-        background-color: white;
-        color: rgb(75, 3, 3);
-        font-family: 'Times New Roman', Times, serif; size: 0cqb;
-        flex-direction: row;
-                }
-    ul {
-        margin: 0%;
-        padding: 0%;
-        list-style-typye: none;
-    }    
-    li {
-        display: inline-block;
-        margin-right: 20px;
-
-    }      
    
-    section {
-        
-        margin: 5px 300px;
-    }
-    footer {
-        background-color: grey;
-    }
-</style>      
+</style>
+
+<link rel="stylesheet" href="style.css">
 
 <body>
-    <header>
-       <nav>
-        <ul>
-            <li><img src="Images/Black and White Line Art Rose Flower Minimalist Logo_20240403_215849_0000.png" alt="" height="100"></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about me.html">About me</a></li>
-            <li><a href="contaxt us.html">Contact us</a></li>
-        </ul>
-       </nav>
-       <h1>Cantacts</h1>
+    <header class="header">
+       
+        <div class="logo">
+            <img src="Images/Black and White Line Art Rose Flower Minimalist Logo_20240403_215849_0000.png" alt="" height="100"></li>
+        </div>
+
+        <div>
+            <ul class="home">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about me.html">About me</a></li>
+                <li><a href="contaxt us.html">Contact us</a></li>
+             
+            </ul>
+        </div>
+       
+                
        
     </header>
     
-    <h4 style="color: white;">Nontobeko Zavala</h4>
-    <p style="color: white;">Telephone: +27 (0) 15- 268 - 0000
-            </p>
-    <p style="color: white;">Email: nonzavala@gmail.com</p>        
-
+    <form>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+      </form>
     
-        
-                      
-            
+                    
            
-        <footer>footer</footer>
+           
+        <footer> 
+           
+            
+            <div class="footer">
+                <div>
+                    <ul style="list-style-type: none; margin: 0%; padding: 0%;">
+                        <li><h2>Address</h2></li>
+                        <li>Material Modelling Centre</li>
+                        <li>School of Physics and Mineral Science</li>
+                        <li>Q block 3rd floor 3020</li>
+                        <li>University of Limpopo</li>
+                        <li>Sovenga 0727</li>
+                        <li>South Africa</li>
+    
+                    </ul>
+                </div>
+                <div id="follow-us">
+                    <h2>Follow us</h2>
+                                     
+                    <div>
+                        <i><i class="ri-facebook-fill"></i></i>
+                        <i><i class="ri-twitter-fill"></i></i>
+                        <i><i class="ri-instagram-fill"></i></i>
+                    </div>
+                    
+                </div>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58368.3609134564!2d29.66233234863281!3d-23.888818799999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6c8fdb773fbe1%3A0xaa4588ea6501ac39!2sUniversity%20of%20Limpopo!5e0!3m2!1sen!2sza!4v1712484821541!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                </div>
+            </div>
+            
+            
+                      
+
+         
+
+
+
+        </footer>
 </body>
